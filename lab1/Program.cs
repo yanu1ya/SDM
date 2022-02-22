@@ -2,6 +2,7 @@ using System;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Collections;
+
 class Program
 {
     static void Main(string[] args)
@@ -22,6 +23,7 @@ class Program
 
         }
     }
+
     static void interactiveMode()
     {
         double a, b, c;
@@ -35,6 +37,7 @@ class Program
 
         findRoots(a, b, c);
     }
+
     static void nonInteractiveMode()
     {
         Console.Write("You've chosen non-interactive mode.\nInput file path here, please: ");
@@ -61,6 +64,7 @@ class Program
             Console.WriteLine("Error: Wrong path.");
         }
     }
+
     static void findRoots(double a, double b, double c)
     {
         double d = Math.Pow(b, 2) - 4 * a * c; // discriminant 
@@ -82,6 +86,7 @@ class Program
             Console.WriteLine("No roots found.");
         }
     }
+
     static double inputCorrectNumber(string letter)
     {
         double i = 0;
