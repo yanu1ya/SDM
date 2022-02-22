@@ -5,11 +5,14 @@ Dependency: C#6 or higher compiler
 Floating point numbers should be written with COMMA due to C# language specifics
 
 Compilation on Windows:
+```shell
 >cd ./SDM/lab1/
 >csc Program.cs
 >Program.exe
-
+```
 Compilation on Linux:
+```shell
 >cd ./SDM/lab1/
 >mcs Program.cs
 >mono Program.exe
+```
