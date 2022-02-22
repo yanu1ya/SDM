@@ -4,14 +4,13 @@ class Program
 {
     static void Main(string[] args)
     {
+        interactiveMode();
+    }
+    static void interactiveMode()
+    {
         double a, b, c;
         Console.WriteLine("You've chosen interactive mode.\nInput your numbers, please.");
         a = inputCorrectNumber("a");
-        if (a == 0) // exception
-        {
-            Console.WriteLine("Error: a can't be equal to 0. Try again.");
-            a = inputCorrectNumber("a");
-        }
 
         b = inputCorrectNumber("b");
 
@@ -20,7 +19,6 @@ class Program
         Console.WriteLine($"({a})x^2 + ({b})x + ({c}) = 0");
 
         findRoots(a, b, c);
-
     }
     static void findRoots(double a, double b, double c)
     {
@@ -51,6 +49,11 @@ class Program
         if (double.TryParse(test, out i)) // tries if test can be parsed into double, if true - result goes to variable i
         {
             // i = Convert.ToDouble(test);
+            if (letter == "a" && i == 0) // exception for a
+            {
+                Console.WriteLine("Error: a can't be equal to 0. Try again.");
+                return inputCorrectNumber("a");
+            }
             return i;
         }
         else
