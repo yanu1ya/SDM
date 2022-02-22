@@ -46,7 +46,7 @@ class Program
         {
             string result = File.ReadAllText(@path);
             // path format has to be like this: "E:\storage\C#\SDM\lab1\coefs.txt"
-            string pattern = @"-?\d(\,\d*)? -?\d(\,\d*)? -?\d(\,\d*)?
+            string pattern = @"-?\d+(\,\d*)? -?\d+(\,\d*)? -?\d+(\,\d*)?
 ";
             bool isMatch = Regex.IsMatch(result, pattern);
             if (isMatch)
