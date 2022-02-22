@@ -2,8 +2,6 @@ using System;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Collections;
-
-
 class Program
 {
     static void Main(string[] args)
@@ -21,21 +19,16 @@ class Program
             default:
                 Console.WriteLine("*-*");
                 break;
+
         }
     }
     static void interactiveMode()
     {
         double a, b, c;
         Console.WriteLine("You've chosen interactive mode.\nInput your numbers, please.");
+        
         a = inputCorrectNumber("a");
-        if (a == 0) // exception
-        {
-            Console.WriteLine("Error: a can't be equal to 0. Try again.");
-            a = inputCorrectNumber("a");
-        }
-
         b = inputCorrectNumber("b");
-
         c = inputCorrectNumber("c");
 
         Console.WriteLine($"({a})x^2 + ({b})x + ({c}) = 0");
@@ -49,7 +42,7 @@ class Program
         if (File.Exists(path))
         {
             string result = File.ReadAllText(@path);
-            // path format has to be like this: "E:\storage\C#\1\coefs.txt"
+            // path format has to be like this: "E:\storage\C#\SDM\lab1\coefs.txt"
             string pattern = @"-?\d(\,\d*)? -?\d(\,\d*)? -?\d(\,\d*)?
 ";
             bool isMatch = Regex.IsMatch(result, pattern);
@@ -97,6 +90,11 @@ class Program
         if (double.TryParse(test, out i)) // tries if test can be parsed into double, if true - result goes to variable i
         {
             // i = Convert.ToDouble(test);
+            if (letter == "a" && Convert.ToDouble(test) == 0) // exception
+            {
+                Console.WriteLine("Error: a can't be equal to 0. Try again.");
+                return inputCorrectNumber("a");
+            }
             return i;
         }
         else
