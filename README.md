@@ -2,6 +2,7 @@
 ## Lab 1: Quadratic Equation Solver
 ### Dependency: C#6 or higher compiler
 ### Floating point numbers should be written with COMMA due to C# language specifics
+### Input path format in non-interactive mode should be like this: E:\storage\C#\SDM\lab1\coefs.txt
 
 Compilation on Windows:
 ```shell
@@ -9,6 +10,7 @@ Compilation on Windows:
 >csc Program.cs
 >Program.exe
 ```
+
 Compilation on Linux:
 ```shell
 >cd ./SDM/lab1/
