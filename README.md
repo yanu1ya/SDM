@@ -1,6 +1,6 @@
 # Software development methodology laboratory works
 ## Lab 1: Quadratic Equation Solver
-### Dependency: C#6 or higher compiler
+### Dependency: C#6 or higher version compiler
 ### Floating point numbers should be written with COMMA due to C# language specifics
 ### Input path format in non-interactive mode should be like this: E:\storage\C#\SDM\lab1\coefs.txt
 
@@ -17,3 +17,5 @@ Compilation on Linux:
 >mcs Program.cs
 >mono Program.exe
 ```
+## Lab 2: Doubly Linked List
+### Dependency: C#6 or higher version compiler
