@@ -1,0 +1,16 @@
+E:\storage\C#\SDM\lab2\lab2\bin\Debug\net5.0\lab2.exe
+E:\storage\C#\SDM\lab2\lab2\bin\Debug\net5.0\lab2.deps.json
+E:\storage\C#\SDM\lab2\lab2\bin\Debug\net5.0\lab2.runtimeconfig.json
+E:\storage\C#\SDM\lab2\lab2\bin\Debug\net5.0\lab2.runtimeconfig.dev.json
+E:\storage\C#\SDM\lab2\lab2\bin\Debug\net5.0\lab2.dll
+E:\storage\C#\SDM\lab2\lab2\bin\Debug\net5.0\ref\lab2.dll
+E:\storage\C#\SDM\lab2\lab2\bin\Debug\net5.0\lab2.pdb
+E:\storage\C#\SDM\lab2\lab2\obj\Debug\net5.0\lab2.csproj.AssemblyReference.cache
+E:\storage\C#\SDM\lab2\lab2\obj\Debug\net5.0\lab2.GeneratedMSBuildEditorConfig.editorconfig
+E:\storage\C#\SDM\lab2\lab2\obj\Debug\net5.0\lab2.AssemblyInfoInputs.cache
+E:\storage\C#\SDM\lab2\lab2\obj\Debug\net5.0\lab2.AssemblyInfo.cs
+E:\storage\C#\SDM\lab2\lab2\obj\Debug\net5.0\lab2.csproj.CoreCompileInputs.cache
+E:\storage\C#\SDM\lab2\lab2\obj\Debug\net5.0\lab2.dll
+E:\storage\C#\SDM\lab2\lab2\obj\Debug\net5.0\ref\lab2.dll
+E:\storage\C#\SDM\lab2\lab2\obj\Debug\net5.0\lab2.pdb
+E:\storage\C#\SDM\lab2\lab2\obj\Debug\net5.0\lab2.genruntimeconfig.cache
