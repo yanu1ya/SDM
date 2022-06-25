@@ -19,5 +19,5 @@ Compilation on Linux:
 ```
 
 ### UnitTesting
-![Alt text](/screenshots/Screenshot_1.png?raw=true "Optional Title")
+![Alt text](/lab2/screenshots/Screenshot_1.png?raw=true "Optional Title")
 [Failed CI tests link](https://github.com/yanu1ya/SDM/commit/78b64aa2820abf3afd57e78f5d8a20d51909a2b5)
